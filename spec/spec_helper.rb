@@ -16,7 +16,7 @@ require 'simplecov'
 # SimpleCov::Formatter::HTMLFormatter, add as first in list of formatters if need
 SimpleCov.formatters = SimpleCov::Formatter::HTMLFormatter
 SimpleCov.start do
-  track_files "{app}/**/*.rb"
+  track_files '{app}/**/*.rb'
 end
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
